@@ -1,5 +1,5 @@
 #include<windows.h>
 
 int main(){
-	MessageBoxW(NULL, "Hello World!", NULL, MB_OK);
+	MessageBoxW(NULL, L"Hello World!", NULL, MB_OK);
 }
